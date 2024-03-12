@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Nanum+Pen+Script&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Pen+Script&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Baloo+Da+2:wght@400..800&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Pen+Script&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Catamaran:wght@100..900&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#miheader {
+    position: fixed;
+    top: 0;
+    height: auto;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #879a72;
+
+}
+
+.branding {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.branding h1 {
+    font-size: 50px;
+    color: rgb(19, 46, 23);
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    line-height: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(55, 80, 26);
+    font-family: "Sniglet", system-ui;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+nav {
+    font-family: "Sniglet", system-ui;
+    font-weight: 100;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header ul li {
+    margin: 10px;
+    margin-right: 20px;
+    color: rgb(87, 50, 6);
+
+
+}
+
+#nuestrosproductos {
+    background-color: rgb(46, 78, 16);
+    margin-top: 200px;
+}
+.fila-productos{
+    padding-top: 50px;
+}
+.shampoos,
+.acondicionadores,
+.mascarillas {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.shampoos img,
+.acondicionadores img,
+.mascarillas img {
+    width: 80%;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.shampoos p,
+.acondicionadores p,
+.mascarillas p {
+    font-size: 30px;
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+}
+
+.fondo-cielo {
+    background: #a4c7e7;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-seccion2 {
+    width: 30%;
+}
+
+.p-seccion2 {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.portada {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portada img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.portadatexto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    background-color: rgb(110, 103, 34);
+}
+
+.portadatexto p {
+    width: 50%;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: rgb(255, 255, 255)
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.champus {
+
+    background-color: rgb(46, 78, 16);
+    padding-top: 200px;
+    
+}
+
+.romero,
+.coco,
+.cacao,
+.cafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.romero img,
+.coco img,
+.cacao img,
+.cafe img {
+    max-height: 300px;
+
+}
+
+.romero h2,
+.coco h2,
+.cacao h2,
+.cafe h2 {
+    color: rgb(255, 255, 255);
+}
+
+.despedida {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    background-color: rgb(228, 164, 68);
+}
+
+.despedida h2 {
+    font-family: "Sniglet", system-ui;
+    font-size: 30px;
+    color: rgb(19, 46, 23);
+}
+
+.despedida h3 {
+    font-family: "Sniglet", system-ui;
+    font-size: 40px;
+    color: rgb(73, 58, 11);
+}
+
+.cocodos,
+.cacaodos,
+.aloedos,
+.almendrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cocodos img,
+.cacaodos img,
+.aloedos img,
+.almendrados img {
+    max-height: 300px;
+}
+
+.cocodos h2,
+.cacaodos h2,
+.aloedos h2,
+.almendrados h2 {
+    color: rgb(255, 255, 255);
+}
+
+.preparacion {
+    background-color: rgb(151, 93, 6);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.preparacion h3 {
+    width: 50%;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+}
+.champusdos{
+    background-color: rgb(46, 78, 16);
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 90%;
+    }
+
+    .branding h1 {
+        font-size: 50px;
+        padding-top: 22px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    header ul {
+        font-size: 25px;
+    }
+    .despedida h2{
+        text-align: center;
+    }
+    .despedida h3{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .shampoos img,
+    .acondicionadores img,
+    .mascarillas img {
+        width: 200px;
+        margin-top: 20px;
+    }
+}
